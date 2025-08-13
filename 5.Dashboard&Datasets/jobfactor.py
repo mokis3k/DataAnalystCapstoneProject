@@ -9,12 +9,12 @@ df = pd.read_csv(input_file)
 
 # column name
 if "JobFactors" not in df.columns:
-    raise ValueError("В файле нет колонки 'JobFactors'!")
+    raise ValueError("no column JobFactors)
 
 # filling up missing values
 df["JobFactors"] = df["JobFactors"].fillna("")
 
-# Spliting by delimeter
+# spliting by delimeter
 factors = (
     df["JobFactors"]
     .str.split(";")
@@ -22,14 +22,14 @@ factors = (
     .str.strip()
 )
 
-# Clearing missing values
+# clearing missing values
 factors = factors[factors != ""]
 
-# Every factor counts
+# every factor counts
 counts = factors.value_counts().reset_index()
 counts.columns = ["JobFactors", "Count"]
 
-# Saving to CSV file
+# saving to CSV file
 counts.to_csv(output_file, index=False, encoding="utf-8-sig")
 
-print(f"Готово! Результат сохранён в {output_file}")
+print(output_file)

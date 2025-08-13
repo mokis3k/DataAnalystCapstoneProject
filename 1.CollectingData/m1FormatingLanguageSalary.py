@@ -12,7 +12,7 @@ salary_col = "Average Annual Salary"
 
 # checking existing column
 if salary_col not in df.columns:
-    raise ValueError(f"В файле нет колонки '{salary_col}'!")
+    raise ValueError(f"no column named: {salary_col}")
 
 # deleting commas, changing "$" symbol
 df[salary_col] = (
@@ -25,4 +25,4 @@ df[salary_col] = (
 
 df.to_csv(output_file, index=False, encoding="utf-8-sig")
 
-print(f"Готово! Числовые значения зарплат сохранены в {output_file}")
+print(output_file)
