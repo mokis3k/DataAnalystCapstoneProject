@@ -1,3 +1,5 @@
+![IBM Logo.](https://cdn.freebiesupply.com/images/large/2x/ibm-logo-white.png)
+
 # IBM Data Analyst
 IBM Data Analyst Course Final Project on Coursera
 This is the Capstone Project for Course 9, IBM Data Analyst Capstone Project. Part of IBM's Data Analyst Professional Certificate from Coursera. Available here: https://www.coursera.org/professional-certificates/ibm-data-analyst
