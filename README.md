@@ -1,7 +1,7 @@
 ![IBM Logo.](https://cdn.freebiesupply.com/images/large/2x/ibm-logo-white.png)
 
 # IBM Data Analyst
-IBM Data Analyst Course Final Project on Coursera
+IBM Data Analyst Course Final Project on Coursera.
 This is the Capstone Project for Course 9, IBM Data Analyst Capstone Project. Part of IBM's Data Analyst Professional Certificate from Coursera. Available here: https://www.coursera.org/professional-certificates/ibm-data-analyst
 
 The role of a Data Analyst will be assumed within a global IT and business services firm. In this role, several datasets will be analyzed to identify trends in emerging technologies. The position has recently been filled by a Data Analyst in a global IT and business consulting services firm known for its expertise in IT solutions and its team of highly experienced IT consultants. To keep pace with changing technologies and remain competitive, data is regularly analyzed within the organization to help identify future skill requirements.
